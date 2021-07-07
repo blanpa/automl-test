@@ -1,4 +1,4 @@
-name: PyCaret AutoML Git Action
+name: Test Git Action
 on: 
   push :
     branches: [ main ]  
@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: PyCaret AutoML Git Action
         id: model
-        uses: pycaret/pycaret-git-actions@automl-pycaret2
+        uses: blanpa/git-actions-test@Test
         with:
           DATASET: "juice"
           TARGET: "Purchase"
