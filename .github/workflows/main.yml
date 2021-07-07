@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: PyCaret AutoML Git Action
         id: model
-        uses: blanpa/git-actions-test@Test
+        uses: blanpa/git-actions-test@Test2
         with:
           DATASET: "juice"
           TARGET: "Purchase"
